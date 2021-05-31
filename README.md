@@ -13,3 +13,8 @@ conda deactivate
 ```
 
 ---
+
+Share project
+```bash
+conda env export --prefix C:\Users\wutchara\Downloads\sample_project\env > environment.yml
+```
