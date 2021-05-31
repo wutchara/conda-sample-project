@@ -18,3 +18,8 @@ Share project
 ```bash
 conda env export --prefix C:\Users\wutchara\Downloads\sample_project\env > environment.yml
 ```
+
+Create proect with sharing
+```bash
+conda env create --file environment.yml --name env_from_file
+```
